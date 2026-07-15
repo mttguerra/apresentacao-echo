@@ -241,3 +241,10 @@
 .b07-nicho .t-microcopy { font-size: 1rem; line-height: 1.4; font-weight: 500; }
 .b07-nicho .t-body { font-size: 0.85rem; }
 .b07-punch { max-width: 45ch; margin-top: 0.5rem; }
+
+/* ============= b08 — Pilar 3 ============= */
+.block--b08 { gap: 1.25rem; }
+.b08-items { margin-top: 0.75rem; }
+.b08-item { display: flex; flex-direction: column; gap: 0.5rem; }
+.b08-item-icon { font-size: 1.75rem; }
+.b08-item .t-microcopy { font-size: 1.1rem; }
