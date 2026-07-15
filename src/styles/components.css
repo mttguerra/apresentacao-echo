@@ -195,3 +195,16 @@
 .b03-month--bad { border-color: var(--danger); }
 .b03-month--good { border-color: var(--success); }
 .b03-punch { max-width: 40ch; margin-top: 0.5rem; }
+
+/* ============= b04 — Armadilhas ============= */
+.block--b04 { gap: 1.75rem; }
+.b04-traps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 0.5rem; }
+.b04-trap { display: flex; flex-direction: column; gap: 0.75rem; }
+.b04-trap-num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--accent);
+  opacity: 0.85;
+}
+.b04-note { text-align: center; margin-top: 0.5rem; }
