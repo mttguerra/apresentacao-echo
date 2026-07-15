@@ -322,3 +322,37 @@
   font-size: 0.85rem;
 }
 .b10-note { text-align: center; }
+
+/* ============= b11 — Diferenciais ============= */
+.block--b11 { gap: 1.5rem; }
+.b11-table {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-2);
+}
+.b11-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+}
+.b11-row:last-child { border-bottom: none; }
+.b11-row--header { background: var(--bg-3); }
+.b11-row--header .b11-cell {
+  padding: 1rem 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-1);
+}
+.b11-cell {
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-2);
+}
+.b11-cell--label { color: var(--text-1); font-weight: 500; }
+.b11-cell--other { color: var(--text-3); }
+.b11-cell--echo { background: var(--accent-tint); color: var(--text-1); }
