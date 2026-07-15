@@ -222,3 +222,14 @@
   opacity: 0.85;
 }
 .b05-note { max-width: 40ch; }
+
+/* ============= b06 — Pilar 1 ============= */
+.block--b06 { gap: 1.5rem; }
+.b06-cols { align-items: center; gap: 2.5rem; }
+.b06-flow { display: flex; flex-direction: column; gap: 0.5rem; }
+.b06-step { padding: 1rem 1.25rem; }
+.b06-step .t-microcopy { font-size: 1.15rem; }
+.b06-step .t-body { font-size: 0.9rem; }
+.b06-arrow { text-align: center; color: var(--accent); font-size: 1.5rem; opacity: 0.6; }
+.b06-payoff { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+.b06-note { margin-top: 0.5rem; font-style: italic; }
