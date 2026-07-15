@@ -285,3 +285,40 @@
 .b09-connector {
   display: none;
 }
+
+/* ============= b10 — Cases ============= */
+.block--b10 { gap: 1.75rem; }
+.b10-cases { margin-top: 0.5rem; }
+.b10-case { display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start; }
+.b10-before-after {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1;
+}
+.b10-before {
+  color: var(--text-3);
+  font-size: 2.25rem;
+  text-decoration: line-through;
+  text-decoration-color: var(--danger);
+  text-decoration-thickness: 3px;
+}
+.b10-arrow { color: var(--text-3); font-size: 1.5rem; }
+.b10-after {
+  color: var(--accent);
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  letter-spacing: -0.03em;
+}
+.b10-mult {
+  margin-top: auto;
+  padding: 0.4rem 0.75rem;
+  background: var(--accent-tint);
+  border-radius: 6px;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.b10-note { text-align: center; }
