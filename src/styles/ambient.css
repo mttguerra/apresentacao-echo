@@ -1,0 +1,13 @@
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, var(--accent-tint), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, var(--accent-tint), transparent 70%);
+  opacity: 0.5;
+}
+
+.reveal { position: relative; z-index: 1; }
