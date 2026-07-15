@@ -187,3 +187,11 @@
 .b02-stats { margin-top: 0.5rem; }
 .b02-stat { display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start; }
 .b02-punch { max-width: 32ch; }
+
+/* ============= b03 — Dor ============= */
+.block--b03 { gap: 1.75rem; }
+.b03-months { margin-top: 0.5rem; }
+.b03-month { display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start; }
+.b03-month--bad { border-color: var(--danger); }
+.b03-month--good { border-color: var(--success); }
+.b03-punch { max-width: 40ch; margin-top: 0.5rem; }
