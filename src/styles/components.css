@@ -248,3 +248,40 @@
 .b08-item { display: flex; flex-direction: column; gap: 0.5rem; }
 .b08-item-icon { font-size: 1.75rem; }
 .b08-item .t-microcopy { font-size: 1.1rem; }
+
+/* ============= b09 — Processo ============= */
+.block--b09 { gap: 1.75rem; }
+.b09-timeline {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) ;
+  gap: 0;
+  align-items: start;
+  position: relative;
+}
+.b09-phase {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0 0.75rem;
+  z-index: 2;
+}
+.b09-phase-num {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--bg-2);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.b09-phase-body { display: flex; flex-direction: column; gap: 0.35rem; }
+.b09-phase .t-microcopy { font-size: 1.05rem; }
+.b09-phase .t-body { font-size: 0.85rem; }
+.b09-connector {
+  display: none;
+}
