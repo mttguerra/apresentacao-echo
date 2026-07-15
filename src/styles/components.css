@@ -387,3 +387,17 @@
 .b13-faqs { margin-top: 0.5rem; }
 .b13-faq { display: flex; flex-direction: column; gap: 0.6rem; }
 .b13-faq .t-microcopy { font-size: 1.05rem; color: var(--accent); }
+
+/* ============= b14 — CTA ============= */
+.block--b14 { gap: 2rem; }
+.b14-logo { opacity: 0.9; }
+.b14-punch { max-width: 20ch; text-align: center; }
+.b14-steps { text-align: left; margin-top: 0.5rem; }
+.b14-step { display: flex; flex-direction: column; gap: 0.5rem; }
+.b14-step-num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: var(--accent);
+}
+.b14-close { max-width: 50ch; margin-top: 1rem; }

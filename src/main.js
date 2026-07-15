@@ -36,7 +36,7 @@ import './blocks/b10-cases.js';
 import './blocks/b11-diferenciais.js';
 import './blocks/b12-investimento.js';
 import './blocks/b13-garantia.js';
-// import './blocks/b14-cta.js';
+import './blocks/b14-cta.js';
 
 import Reveal from 'reveal.js';
 import { revealConfig } from './reveal-config.js';
