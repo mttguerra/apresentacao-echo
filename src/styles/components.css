@@ -381,3 +381,9 @@
 .b12-includes-label { color: var(--accent); }
 .b12-list { display: flex; flex-direction: column; gap: 0.15rem; }
 .b12-compare { max-width: 45ch; }
+
+/* ============= b13 — Garantia + FAQ ============= */
+.block--b13 { gap: 1.5rem; }
+.b13-faqs { margin-top: 0.5rem; }
+.b13-faq { display: flex; flex-direction: column; gap: 0.6rem; }
+.b13-faq .t-microcopy { font-size: 1.05rem; color: var(--accent); }
