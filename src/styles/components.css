@@ -1,0 +1,137 @@
+/* ============= Átomos compartilhados ============= */
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.block--center { align-items: center; text-align: center; }
+
+/* Card Echo — átomo visual da landing */
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  transition: border-color var(--duration-fast) var(--ease-snappy),
+              background var(--duration-fast) var(--ease-snappy);
+}
+
+.card--elevated { background: var(--bg-3); }
+.card--accent { border-color: var(--border-focus); background: var(--accent-tint); }
+
+/* Botão CTA Echo */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.5rem;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all var(--duration-fast) var(--ease-snappy);
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: var(--text-1);
+}
+.btn--primary:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 0 24px var(--accent-glow);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text-1);
+  border: 1px solid var(--border-strong);
+}
+
+/* Ícone check verde (usado em bullets, comparativos) */
+.check {
+  color: var(--success);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.cross {
+  color: var(--danger);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Logo echo. */
+.logo-echo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  letter-spacing: -0.02em;
+  color: var(--text-1);
+}
+.logo-echo .dot { color: var(--accent); }
+
+/* Eyebrow (rótulo no topo de bloco) */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+.eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* Bullet-list — item padrão */
+.bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+.bullet__marker {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Grid 3 colunas (usado em pilares, diferenciais) */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* Big number — usado em cases */
+.big-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+}
