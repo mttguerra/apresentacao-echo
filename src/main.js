@@ -27,7 +27,7 @@ import './blocks/b01-framing.js';
 import './blocks/b02-mercado.js';
 import './blocks/b03-dor.js';
 import './blocks/b04-armadilhas.js';
-// import './blocks/b05-metodo.js';
+import './blocks/b05-metodo.js';
 // import './blocks/b06-pilar1-oportunidades.js';
 // import './blocks/b07-pilar2-criativos.js';
 // import './blocks/b08-pilar3-alinhamento.js';

@@ -208,3 +208,17 @@
   opacity: 0.85;
 }
 .b04-note { text-align: center; margin-top: 0.5rem; }
+
+/* ============= b05 — Método ============= */
+.block--b05 { gap: 2rem; }
+.b05-title { max-width: 18ch; }
+.b05-pilares { margin-top: 0.5rem; text-align: left; }
+.b05-pilar { display: flex; flex-direction: column; gap: 0.5rem; }
+.b05-pilar-num {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: var(--accent);
+  opacity: 0.85;
+}
+.b05-note { max-width: 40ch; }
