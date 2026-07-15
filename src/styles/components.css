@@ -180,3 +180,10 @@
 .b01-col--is .b01-col-label { color: var(--success); }
 .b01-col--isnt .b01-col-label { color: var(--danger); }
 .b01-list { display: flex; flex-direction: column; gap: 0.25rem; }
+
+/* ============= b02 — Mercado ============= */
+.block--b02 { gap: 2rem; }
+.b02-title { max-width: 20ch; }
+.b02-stats { margin-top: 0.5rem; }
+.b02-stat { display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start; }
+.b02-punch { max-width: 32ch; }

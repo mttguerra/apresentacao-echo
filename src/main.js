@@ -24,7 +24,7 @@ import './components/slide-image.js';
 // Blocos — imports adicionados task a task
 import './blocks/b00-capa.js';
 import './blocks/b01-framing.js';
-// import './blocks/b02-mercado.js';
+import './blocks/b02-mercado.js';
 // import './blocks/b03-dor.js';
 // import './blocks/b04-armadilhas.js';
 // import './blocks/b05-metodo.js';
