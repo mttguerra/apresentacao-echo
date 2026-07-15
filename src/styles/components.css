@@ -171,3 +171,12 @@
   font-size: 0.85rem;
   color: var(--text-2);
 }
+
+/* ============= b01 — Framing ============= */
+.block--b01 { gap: 1.75rem; }
+.b01-cols { margin-top: 0.5rem; }
+.b01-col { display: flex; flex-direction: column; gap: 1rem; }
+.b01-col-label { color: var(--text-3); }
+.b01-col--is .b01-col-label { color: var(--success); }
+.b01-col--isnt .b01-col-label { color: var(--danger); }
+.b01-list { display: flex; flex-direction: column; gap: 0.25rem; }
