@@ -233,3 +233,11 @@
 .b06-arrow { text-align: center; color: var(--accent); font-size: 1.5rem; opacity: 0.6; }
 .b06-payoff { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; }
 .b06-note { margin-top: 0.5rem; font-style: italic; }
+
+/* ============= b07 — Pilar 2 ============= */
+.block--b07 { gap: 1.75rem; }
+.b07-nichos { margin-top: 0.5rem; }
+.b07-nicho { display: flex; flex-direction: column; gap: 0.75rem; }
+.b07-nicho .t-microcopy { font-size: 1rem; line-height: 1.4; font-weight: 500; }
+.b07-nicho .t-body { font-size: 0.85rem; }
+.b07-punch { max-width: 45ch; margin-top: 0.5rem; }
