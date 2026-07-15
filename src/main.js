@@ -34,7 +34,7 @@ import './blocks/b08-pilar3-alinhamento.js';
 import './blocks/b09-processo.js';
 import './blocks/b10-cases.js';
 import './blocks/b11-diferenciais.js';
-// import './blocks/b12-investimento.js';
+import './blocks/b12-investimento.js';
 // import './blocks/b13-garantia.js';
 // import './blocks/b14-cta.js';
 

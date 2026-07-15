@@ -356,3 +356,28 @@
 .b11-cell--label { color: var(--text-1); font-weight: 500; }
 .b11-cell--other { color: var(--text-3); }
 .b11-cell--echo { background: var(--accent-tint); color: var(--text-1); }
+
+/* ============= b12 — Investimento ============= */
+.block--b12 { gap: 1.5rem; }
+.b12-title { max-width: 22ch; }
+.b12-card {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  padding: 2rem 2.5rem;
+  text-align: left;
+  max-width: 900px;
+  width: 100%;
+}
+.b12-price { display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center; }
+.b12-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.5rem, 4.5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.b12-includes { display: flex; flex-direction: column; gap: 0.5rem; }
+.b12-includes-label { color: var(--accent); }
+.b12-list { display: flex; flex-direction: column; gap: 0.15rem; }
+.b12-compare { max-width: 45ch; }
